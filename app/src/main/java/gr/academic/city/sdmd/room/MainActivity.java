@@ -1,10 +1,6 @@
 package gr.academic.city.sdmd.room;
 
-import android.arch.lifecycle.Observer;
-import android.arch.persistence.room.Room;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +8,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.List;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Observer;
+import androidx.room.Room;
 
 public class MainActivity extends AppCompatActivity {
 

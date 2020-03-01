@@ -1,7 +1,7 @@
 package gr.academic.city.sdmd.room;
 
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.RoomDatabase;
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
 
 /**
  * Created by trumpets on 3/20/18.
